@@ -33,6 +33,14 @@
   
 /* Rules Ends */
 
+.border{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    height: 5px;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+
 #banner{
     background: rgba(0,0,0,0.5) url(https://wallpapercave.com/wp/wp2343899.jpg) no-repeat center center;
     background-size: cover;
@@ -215,6 +223,90 @@
     padding-top: 5px;
     padding-bottom: 5px;
 
+
+}
+
+.title_3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Good Times';
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    color:white;
+
+}
+
+#text_3{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    font-family: 'ArcadeClassic';
+    animation-name: Animation_1;
+    animation-duration: 2s;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top:60px ;
+    margin-bottom: 60px; ;
+}
+
+#image_5{
+    position:relative;
+    left: 90px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#image_5 img{
+        width: 250px;
+        height: 250px;
+}
+
+#image_6{
+    position:relative;
+    left: 240px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#image_6 img{
+    width: 250px;
+    height: 250px;
+}
+
+#image_7{
+    position:relative;
+    left: 420px;
+    text-align:right;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#image_7 img{
+    width: 250px;
+    height: 250px;
+
+}
+
+#button_x{
+    position:relative;
+    left: 420px;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'ArcadeClassic';
+    font-size: 30px;
+}
+
+#number{
+text-align:center;
 }
 
 
